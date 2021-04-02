@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+span{
+	display:inline-block;
+	text-decoration:none;
+	color:inherit;
+}
+.section-head{
+	margin-bottom:60px;
+}
+
+.section-head h4{
+	position:relative;
+	padding:0;
+	color:#f91942;
+	line-height:1;
+	letter-spacing:0.3px;
+	font-size:34px;
+	font-weight:700;
+	text-align: center;
+	text-transform:none;
+	margin-bottom:30px;
+}
+
+.section-head h4 span{
+	font-weight:700;
+	padding-bottom:5px;
+	color:#2f2f2f;
+}
+
+.section-head p{
+	color:#818181;
+	font-size:16px;
+	line-height:28px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.item{
+	background:#fff;
+	text-align:center;
+	padding:30px 25px;
+	box-shadow:0 0 25px rgba(0,0,0,0.07);
+	border-radius:20px;
+	margin-bottom:30px;
+	border:5px solid rgba(0,0,0,0.07);
+	-webkit-transition:all 0.5s ease 0s;
+	transition:all 0.5s ease 0s;
+	height:90%;
+}
+.item h6{
+	text-align:center;
+}
+.item p{
+	text-align: justify;
+    text-justify: inter-word;
+}
+.item a{
+	text-align:center;
+}
+
+.item:hover{
+	box-shadow:0 8px 20px 0 rgba(0,0,0,0.2);
+	-webkit-transition:all 0.5s ease 0s;
+	transition:all 0.5s ease 0s;
+}
+.item ul li{
+	text-align:left;
+}
+.btn-success{
+	border-radius:30px;
+	width:50px;
+	height:50px;
+	
+	color:white;
+}
+.btn-light{
+	border-radius:30px;
+	width:50px;
+	height:50px;
+	outline-color: red;
+	color:white;
+}
+.fa-whatsapp{
+	font-size:30px;  
+}
+.img{
+	height:30px;
+	width:30px;
+	
+}
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:10px;
+}
